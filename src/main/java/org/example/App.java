@@ -20,5 +20,7 @@ public class App
         quoter = input.nextLine();
 
         System.out.println(quoter + " says, " + "\'"+ quote +"\'");
+
+        input.close();
     }
 }
